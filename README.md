@@ -43,5 +43,5 @@ This project was not built for production use, but as a way to better understand
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/<your-username>/GOurl.git
+   git clone https://github.com/prityushsingh/GOurl.git
    cd GOurl
