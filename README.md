@@ -1,47 +1,47 @@
-# 🔗 Minimal URL Shortener (Go + SQLite)
+# Minimal URL Shortener (Go + SQLite)
 
-A lightweight, self-contained **URL Shortener** built with **Go** and **SQLite**.  
-This project was created primarily for **educational purposes** — to understand how URL shorteners work under the hood,  
-including concepts like routing, HTTP handlers, database persistence, and server-side HTML rendering.
-
----
-
-## 🎯 Project Goal
-
-The main goal of this project was to:
-- Learn how backend systems like URL shorteners generate and store short codes.
-- Understand HTTP request handling, routing, and JSON APIs in Go.
-- Work with SQLite to add persistent data storage to a Go web app.
-- Build something functional from scratch — not just follow a tutorial.
-
-It’s a small project, but it helped me grasp how a simple idea (shortening URLs) combines multiple backend concepts together.
+This is a lightweight URL shortener built using Go and SQLite.  
+I created this project mainly for educational purposes — to understand how a URL shortener works internally, how routing and HTTP handlers function in Go, and how to persist data using SQLite.
 
 ---
 
-## 🚀 Features
+## Project Goal
 
-- ✨ Minimal, clean front-end interface (pure HTML + JS)
-- 🧠 REST API for programmatic URL shortening
-- 🗃️ SQLite database for persistent storage
-- 🔁 Instant redirect to original URLs
-- 💡 All-in-one Go application (no external server or front-end build tools)
+The goal of this project was to learn:
+
+- How URL shorteners generate and store short codes.
+- How HTTP request handling and JSON APIs work in Go.
+- How to use SQLite for simple, persistent storage.
+- How to build something end-to-end using only standard Go libraries.
+
+This project was not built for production use, but as a way to better understand the backend process behind a common real-world application.
 
 ---
 
-## 🧠 Tech Stack
+## Features
+
+- Minimal HTML and JavaScript front-end.
+- REST API for URL shortening.
+- SQLite database for persistent data storage.
+- Simple redirect functionality.
+- Self-contained Go application (no external frameworks).
+
+---
+
+## Tech Stack
 
 | Layer | Technology | Purpose |
 |-------|-------------|----------|
-| **Backend** | Go (net/http) | Handles routes, API, and serving HTML |
-| **Database** | SQLite (via `modernc.org/sqlite`) | Stores short codes and original URLs |
-| **Frontend** | HTML, CSS, JavaScript | Provides the minimal UI |
-| **Architecture** | Single-file monolith | Simple structure for learning |
+| Backend | Go (net/http) | Routing, API handling, serving HTML |
+| Database | SQLite (`modernc.org/sqlite`) | Persistent storage |
+| Frontend | HTML, CSS, JavaScript | Minimal UI |
+| Architecture | Single-file monolith | Simple and easy to understand |
 
 ---
 
-## ⚙️ Installation & Setup
+## Setup and Installation
 
-### 1️⃣ Clone the repository
-```bash
-git clone https://github.com/<your-username>/GOurl.git
-cd GOurl
+1. Clone the repository
+   ```bash
+   git clone https://github.com/<your-username>/GOurl.git
+   cd GOurl
