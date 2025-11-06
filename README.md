@@ -44,4 +44,4 @@ It’s a small project, but it helped me grasp how a simple idea (shortening URL
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/<your-username>/GOurl.git
-cd url-shortener
+cd GOurl
