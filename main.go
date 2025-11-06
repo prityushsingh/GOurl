@@ -73,7 +73,7 @@ func homeHandler(w http.ResponseWriter, r *http.Request) {
 	<html lang="en">
 	<head>
 		<meta charset="UTF-8">
-		<title>URL Shortener</title>
+		<title>GOurl</title>
 		<style>
 			body { font-family: Arial, sans-serif; text-align: center; padding: 50px; background-color: #f7f7f7; }
 			h1 { color: #333; }
