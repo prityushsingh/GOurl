@@ -12,7 +12,7 @@ import (
 	_ "modernc.org/sqlite"
 )
 
-// ======== Structs for API Request/Response ========
+// ======== Structs for API Request/Response =======
 
 type ShortenRequest struct {
 	URL string `json:"url"`
